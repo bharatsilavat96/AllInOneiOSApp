@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362E26642B1CDFB400106EE5 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362E26632B1CDFB400106EE5 /* BasicViewController.swift */; };
+		362E26662B1CE10100106EE5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362E26652B1CE10100106EE5 /* UserModel.swift */; };
+		362E26682B1CE12200106EE5 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362E26672B1CE12200106EE5 /* CountryModel.swift */; };
+		362E266A2B1CE15B00106EE5 /* CustomSignUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362E26692B1CE15B00106EE5 /* CustomSignUpCell.swift */; };
+		362E266C2B1CE23D00106EE5 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 362E266B2B1CE23D00106EE5 /* country.json */; };
 		3679A5C72B1257EE0026DA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679A5C62B1257EE0026DA38 /* AppDelegate.swift */; };
 		3679A5C92B1257EE0026DA38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679A5C82B1257EE0026DA38 /* SceneDelegate.swift */; };
 		3679A5CB2B1257EE0026DA38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679A5CA2B1257EE0026DA38 /* ViewController.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362E26632B1CDFB400106EE5 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		362E26652B1CE10100106EE5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		362E26672B1CE12200106EE5 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		362E26692B1CE15B00106EE5 /* CustomSignUpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSignUpCell.swift; sourceTree = "<group>"; };
+		362E266B2B1CE23D00106EE5 /* country.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
 		3679A5C32B1257EE0026DA38 /* AllInOneiOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOneiOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3679A5C62B1257EE0026DA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3679A5C82B1257EE0026DA38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		362E26622B1CDF6A00106EE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				362E26632B1CDFB400106EE5 /* BasicViewController.swift */,
+				362E26692B1CE15B00106EE5 /* CustomSignUpCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3679A5BA2B1257ED0026DA38 = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +113,7 @@
 				3679A5DA2B125A0F0026DA38 /* Extensions */,
 				3679A5E02B12795D0026DA38 /* Helper */,
 				3679A5DD2B12792A0026DA38 /* Model */,
-				3679A5DE2B1279340026DA38 /* View */,
+				362E26622B1CDF6A00106EE5 /* View */,
 				3679A5DF2B1279400026DA38 /* ViewModel */,
 				3679A5C52B1257EE0026DA38 /* AllInOneiOSProject */,
 				3679A5C42B1257EE0026DA38 /* Products */,
@@ -139,15 +158,10 @@
 		3679A5DD2B12792A0026DA38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				362E26652B1CE10100106EE5 /* UserModel.swift */,
+				362E26672B1CE12200106EE5 /* CountryModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		3679A5DE2B1279340026DA38 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		3679A5DF2B1279400026DA38 /* ViewModel */ = {
@@ -160,6 +174,7 @@
 		3679A5E02B12795D0026DA38 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				362E266B2B1CE23D00106EE5 /* country.json */,
 				36A2F34E2B1B588C0024FB15 /* CustomAlertView.swift */,
 				36A2F34A2B1B588C0024FB15 /* CustomNavigationController.swift */,
 				36A2F34B2B1B588C0024FB15 /* KeyboardManager.swift */,
@@ -268,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A227F02B1CB4E500966BB9 /* epilogue-2-cufonfonts in Resources */,
+				362E266C2B1CE23D00106EE5 /* country.json in Resources */,
 				36A227F42B1CB4F900966BB9 /* Manrope in Resources */,
 				36A2F3572B1B58E80024FB15 /* Poppins in Resources */,
 				3679A5D32B1257F00026DA38 /* LaunchScreen.storyboard in Resources */,
@@ -287,11 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				362E26642B1CDFB400106EE5 /* BasicViewController.swift in Sources */,
 				36A2F3532B1B588C0024FB15 /* ValidationManager.swift in Sources */,
 				36A2F3652B1B628D0024FB15 /* UITextfieldExtnsion.swift in Sources */,
 				36A2F3672B1B63470024FB15 /* FloatExtension.swift in Sources */,
 				36A2F3542B1B588C0024FB15 /* CustomAlertView.swift in Sources */,
 				36A2F3632B1B61E70024FB15 /* ImageDownloader.swift in Sources */,
+				362E26682B1CE12200106EE5 /* CountryModel.swift in Sources */,
 				3679A5CB2B1257EE0026DA38 /* ViewController.swift in Sources */,
 				3679A5C72B1257EE0026DA38 /* AppDelegate.swift in Sources */,
 				36A2F3512B1B588C0024FB15 /* KeyboardManager.swift in Sources */,
@@ -302,6 +320,8 @@
 				3679A5C92B1257EE0026DA38 /* SceneDelegate.swift in Sources */,
 				36A2F3482B1B583F0024FB15 /* UIViewExtension.swift in Sources */,
 				3679A5DC2B125E5E0026DA38 /* Extension.swift in Sources */,
+				362E26662B1CE10100106EE5 /* UserModel.swift in Sources */,
+				362E266A2B1CE15B00106EE5 /* CustomSignUpCell.swift in Sources */,
 				36A2F3472B1B583F0024FB15 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
